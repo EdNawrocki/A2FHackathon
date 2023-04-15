@@ -5,6 +5,20 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
+/*const express = require('express');
+const app = express();
+const PORT = 4000;
+
+app.get('/api', (req, res) => {
+  res.json({
+    message: 'Hello world',
+  });
+});
+
+app.listen(PORT, () => {
+  console.log(`Server listening on ${PORT}`);
+});*/
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
