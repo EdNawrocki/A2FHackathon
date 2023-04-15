@@ -38,11 +38,6 @@ const ChatBody = ({messages, lastMessageRef}) => {
           )
         )}
          <div ref={lastMessageRef} />
-
-        {/*This is triggered when a user is typing*/}
-        <div className="message__status">
-          <p>Someone is typing...</p>
-        </div>
       </div>
     </>
   );
